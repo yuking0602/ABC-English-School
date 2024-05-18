@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABC英会話スクール</title>
+  <meta name="description" content="社会人向け英会話スクールです。英語を学びなおしたい社会人にお勧めです!">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon .jpg" type="image/x-icon">
+  <!-- reset css -->
+  <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css"/>
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- header -->
+  <header id="header">
+    <div class="bg-slider">
+      <div class="header-container">
+        <div class="header-logo">ABC<br>英会話<br>スクール</div>
+        <nav>
+          <ul class="header-list">
+            <li><a href="#">ホーム</a></li>
+            <li><a href="#">コース紹介</a></li>
+            <li><a href="#">利用者の声</a></li>
+            <li><a href="#">コンタクト</a></li>
+          </ul>
+        </nav>
+        <!-- burger -->
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <!-- /burger -->
+      </div>
+      <div class="header-title">
+        <h1 class="header-main-title">
+          Learn English with Fun and Confidence!
+        </h1>
+        <p class="header-sub-title">
+          英会話スクールで楽しく、自信を持って英語を学びましょう！
+        </p>
+        <input class="button" type="submit" value="無料体験レッスンを予約">
+      </div>
+    </div>
+  </header>
+  <!-- /header -->
+
+  <!-- main -->
+  <main>
+    <!-- course -->
+    <section id="course">
+      <h2 class="main-title">コース紹介</h2>
+      <div class="course-container">
+        <!-- beginner -->
+        <div class="beginner slidein slide-left">
+          <h3 class="course-sub-title">初心者コース</h3>
+          <p class="course-description">
+            英語の基礎をゼロから学びたい方のためのコースです。<br>
+            発音、文法、日常英会話を中心に楽しく学びます。
+          </p>
+          <p class="course-money">月額 10,000円</p>
+          <input class="detail btn" type="submit" value="詳細を見る">
+          <input class="application btn" type="submit" value="今すぐ申し込む">
+        </div>
+        <!-- /beginner -->
+        <!-- intermediate -->
+        <div class="intermediate slidein slide-right">
+          <h3 class="course-sub-title">中級者コース</h3>
+          <p class="course-description">
+            基本的な英語力を持つ方のために、<br>
+            より高度な文法や語彙、会話スキルを向上させるコースです。
+          </p>
+          <p class="course-money">月額 15,000円</p>
+          <input class="detail btn" type="submit" value="詳細を見る">
+          <input class="application btn" type="submit" value="今すぐ申し込む">
+        </div>
+        <!-- /intermediate -->
+      </div>
+    </section>
+    <!-- /course -->
+
+    <div class="area" >
+      <!-- evaluation -->
+      <section id="evaluation">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <h2 class="main-title">利用者の声</h2>
+        <div class="evaluation-container">
+          <div class="evaluation-wrapper">
+            <div class="image">
+              <img src="images/face1.jpg" alt="ダミーの顔写真">
+              <p>30代 男性</p>
+            </div>
+            <div class="balloon1 balloon1-left">
+              <p>
+                このスクールのおかげで英語を話す自信がつきました。<br>
+                先生たちもとても親切で毎回のレッスンが楽しみです。
+              </p>
+            </div>
+          </div>
+          <div class="evaluation-wrapper">
+            <div class="image">
+              <img src="images/face2.jpg" alt="ダミーの顔写真">
+              <p>40代 女性</p>
+            </div>
+            <div class="balloon1 balloon1-right">
+              <p>
+                初心者だった私でも今では日常会話がスムーズにできるようになりました。<br>
+                ありがとうございます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /evaluation -->
+    </div >
+
+    <!-- contact -->
+    <div id="contact">
+      <h2 class="main-title">お問い合わせフォーム</h2>
+      <form action="#">
+        <dl class="form-area">
+          <dt><label class="required" for="name">お名前</label></dt>
+          <dd><input class="input-text" type="text" name="name" id="name"></dd>
+          <dt><label class="required" for="email">メール</label></dt>
+          <dd><input class="input-text" type="email" name="email" id="email"></dd>
+          <dt><label class="required" for="message">メッセージ</label></dt>
+          <dd><textarea name="message" id="message"></textarea></dd>
+        </dl>
+        <div class="btn-wrapper">
+          <input class="submit-button" type="submit" value="送信">
+        </div>
+      </form>
+    </div>
+    <!-- /contact -->
+  </main>
+  <!-- /main -->
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="address">
+        <dl class="address-list">
+          <dt>住所</dt>
+          <dd>東京都千代田区丸の内1</dd>
+          <dt>電話</dt>
+          <dd>03-1234-5678</dd>
+          <dt>メール</dt>
+          <dd>info@eikaiwa.com</dd>
+        </dl>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8330566914933!2d139.76451597525056!3d35.68111242998139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbee1467bb%3A0x410f8b6e7e3ee34f!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1716026881174!5m2!1sja!2sjp" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <small>&copy; 2024 ABC English School</small>
+  </footer>
+  <!-- /footer -->
+
+  <script src="jquery.bgswitcher.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
